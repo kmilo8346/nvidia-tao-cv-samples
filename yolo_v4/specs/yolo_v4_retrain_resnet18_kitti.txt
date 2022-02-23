@@ -43,7 +43,7 @@ training_config {
       amsgrad: false
     }
   }
-  pruned_model_path: "EXPERIMENT_DIR/experiment_dir_pruned/yolov4_resnet18_pruned.tlt"
+  pruned_model_path: "/workspace/tao-experiments/yolo_v4/experiment_dir_pruned/yolov4_resnet18_pruned.tlt"
 }
 eval_config {
   average_precision_mode: SAMPLE
